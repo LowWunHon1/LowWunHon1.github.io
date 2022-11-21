@@ -54,3 +54,25 @@ footer {
 logo:hover {
     width: 300px;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 7vw;
+        margin-top: 4vw;
+        margin-bottom: 3vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        background: black;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        padding: 4vw;
+        display: inline-block;
+    }
+}
