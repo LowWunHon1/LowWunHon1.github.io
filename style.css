@@ -66,6 +66,7 @@ logo:hover {
 
     nav {
         background: turquoise;
+        margin-top: -5vw;
         width: 102%;
         height: 15%;
         text-align: center;
@@ -85,5 +86,9 @@ logo:hover {
     ul {
         position: fixed;
         color: white;
+    }
+
+    .logo {
+        margin-left: -2vw;
     }
 }
