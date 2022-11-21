@@ -69,7 +69,6 @@ logo:hover {
         margin-top: -5vw;
         width: 102%;
         height: 15%;
-        text-align: right;
     }
 
     nav a {
@@ -86,6 +85,7 @@ logo:hover {
     ul {
         position: fixed;
         color: white;
+        text-size-adjust: 10px;
     }
 
     .logo {
