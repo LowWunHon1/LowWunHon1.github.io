@@ -76,6 +76,7 @@ logo:hover {
         color: white;
         padding: -10vw;
         display: inline-block;
+        text-align: right 50px;
     }
 
     .column {
@@ -84,9 +85,9 @@ logo:hover {
     }
 
     ul {
-        position: fixed;
         color: white;
         text-size-adjust: 10px;
+        text-align: center;
     }
 
     .logo {
@@ -94,6 +95,6 @@ logo:hover {
     }
 
     .dropbtn {
-        font-size: 2vw;
+        font-size: 1vw;
     }
 }
