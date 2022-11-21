@@ -65,7 +65,7 @@ logo:hover {
     }
 
     nav {
-        background: turquoise;
+        background: lightblue;
         margin-top: -5vw;
         width: 102%;
         height: 15%;
@@ -73,7 +73,6 @@ logo:hover {
     }
 
     nav a {
-        color: white;
         padding: -10vw;
         display: inline-block;
         text-align: right 50px;
@@ -95,6 +94,12 @@ logo:hover {
     }
 
     .dropbtn {
-        font-size: 1vw;
+        padding: 16px;
+        font-size: 16px;
+        color: black;
+    }
+
+    .xplorevideo {
+        animation-play-state: paused;
     }
 }
