@@ -55,6 +55,10 @@ logo:hover {
     width: 300px;
 }
 
+.imageLesson5 {
+    display: none;
+}
+
 @media only screen and (max-width: 420px) {
     h1 {
         font-size: 7vw;
@@ -102,6 +106,16 @@ logo:hover {
     }
 
     .xplorevideo {
-        animation-play-state: paused;
+        display: none;
+    }
+
+    .imageLesson5 {
+        display: block;
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
     }
 }
